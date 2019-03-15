@@ -1,0 +1,640 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+header{ 
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./CanadaPhoto3.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.main-nav{
+  float:right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li{
+  
+  display: inline-block;
+}
+
+.main-nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: Candara;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-nav li.active a{
+  border: 3px solid white;
+  
+}
+
+.main-nav li a:hover{
+  border: 1px solid white;
+}
+
+.row{
+  
+  max-width: 100%;
+  margin: auto;
+}
+
+.main-heading{
+  
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%; 
+  /*the width and h1 text align helped get the text to the center */
+}
+  
+
+
+#headingText{
+ 
+  color:white;
+  font-family: Candara;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+  letter-spacing: 4px;
+}
+
+.creator{
+  position:absolute;
+  max-width: 1500px;
+}
+
+.headshot{
+  border-radius: 50%;
+  border: 3px solid dimgray;
+  margin-top: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.blurb{
+  max-width: 1500px;
+} 
+.welcome{
+  text-align: center;
+  font-family: Candara;
+  color: dimgray;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.introduction{
+  font-family: Candara;
+  color: dimgray;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 300px;
+  line-height: 1.5 ;
+}
+
+.contactInfo{
+  font-family: Candara;
+  color: dimgray;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px 300px;
+  line-height: 1.5 ;
+}
+
+
+.grid1 {
+  display: grid;
+  height: 800px;
+  grid-template-columns: repeat(6, 1 fr);
+  grid-template-rows: repeat(6, 1 fr);
+  grid-template-areas:
+    "c c d i i o"
+    "c c d j f f"
+    "k l m m f f"
+    "h h m m n n"
+    "h h x x r r"
+    "t t g e r r";
+  grid-gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.titles{
+  font-family: Candara;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.career {
+  grid-area: c;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./careerPhoto5.jpg);
+  background-size: cover;
+  border: yellow 4px;
+  
+
+
+}
+
+.dog{
+  grid-area: d;
+  background-image: url(./dogPhoto9.jpg);
+  border: yellow 4px;
+  object-fit: fill;
+}
+
+.interests{
+  grid-area: i;
+  background-image:  url(./interests2.jpg);
+  background-size: cover;
+}
+
+.box1{
+  background-color: Aquamarine;
+  grid-area: o;
+}
+
+.box2{
+  background-color: Aqua;
+  grid-area: j;
+}
+
+.family{
+ grid-area: f;
+ background-image: url(./familyPhoto5.jpg);
+}
+
+.box3{
+  background-color: Turquoise;
+  grid-area: k;
+}
+
+.box4{
+  background-color: lightskyblue;
+  grid-area: l;
+}
+
+.myFace{
+  grid-area: m;
+  background-image: url(./me1.jpg);
+  background-size: fill;
+}
+
+.husband{
+  grid-area: h;
+  background-image: url(./husbandPhoto5.jpg);
+  background-size: cover;
+}
+
+.box5 {
+  background-color: Steelblue;
+  grid-area: n;
+}
+
+.box6 {
+  background-color: dodgerblue ;
+  grid-area: x;
+}
+
+.friends {
+  grid-area: r;
+ background-image: url(./friendsPhoto1.jpg);
+ background-size: cover;
+
+}
+
+
+.travel {
+  grid-area: t;
+  background-image: url(./travelPhoto9.jpg);
+  background-size: cover;
+
+}
+
+.box7 {
+  background-color: darkturquoise;
+  grid-area: g;
+}
+
+.dreams {
+  grid-area: e;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./dreams1.jpg);
+  background-size: cover;
+}
+
+.sections{
+  text-align: center;
+  font-family: candara;
+  color: dimgrey;
+}
+
+.me{
+ border: grey dotted 3px;
+ height: 550px;
+ margin: 40px;
+ margin-bottom: 100px;
+ padding: 20px;
+}
+
+
+
+.me img{
+  border-radius: 65%;
+  border: silver 3px solid;
+}
+
+.me p{
+  margin-bottom: 100px;
+}
+.sections h1{
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.sections p{
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+.sections img{
+  margin-bottom: 40px;
+}
+
+.fam img{
+  border-radius: 30%;
+}
+
+.golden img{
+  border-radius: 65%;
+  border: silver solid 3px;
+}
+
+.titlesMe{
+  font-weight:bold;
+  font-size: 45px;
+  text-align: center;
+  font-family: Candara;
+  color: white;
+  text-shadow: black 4px 4px;
+}
+
+
+
+
+
+
+/* Tablet size*/
+
+@media only screen and (max-width: 991px){
+  header{ 
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./CanadaPhoto3.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  .main-heading{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100% 
+    
+  }
+    
+  
+  
+  #headingText{
+    color:white;
+    font-family: Candara;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 110px;
+    letter-spacing: 4px;
+  }
+
+  .creator{
+    position:absolute;
+    max-width: 100%;
+  }
+  
+  .headshot{
+    border-radius: 50%;
+    border: 3px solid dimgray;
+    margin-top: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .introduction{
+    font-family: Candara;
+    color: dimgray;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 100px;
+    line-height: 1.5 ;
+    
+  }
+
+  .contactContain{
+ 
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  .contactInfo{
+    
+    text-align: center;
+    font-family: Candara;
+    color: dimgray;
+    font-size: 25px;
+    padding: 30px 20px;
+    line-height: 1.5 ;
+    
+  }
+
+
+
+
+
+}
+
+
+
+/* Desktop*/
+
+/*landscape mobile phones*/
+
+@media only screen and (max-width: 767px){
+  header{ 
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./CanadaPhoto3.jpg);
+    height: 85px;
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+
+  .creator{
+    width: 100%;
+    margin:0 auto;
+  }
+  .headshot{
+    border-radius: 50%;
+    border: 3px solid dimgray;
+    display: block;
+    margin: 30px auto 0px auto;
+    width: 120px;
+    height: 120px;
+  }
+
+  .welcome{
+    text-align: left;
+    font-family: Candara;
+    color: dimgray;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .introduction{
+    font-family: Candara;
+    color: dimgray;
+    font-size: 15px;
+    text-align: left;
+    padding: 0px 30px;
+    line-height: 1.5 ;
+
+}
+#headingText{
+  display: none;
+}
+
+.contactContain{
+ 
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.contactInfo{
+  
+  text-align: center;
+  font-family: Candara;
+  color: dimgray;
+  font-size: 25px;
+  padding: 30px 20px;
+  line-height: 1.5 ;
+  
+}
+
+.grid1 {
+  width:100%;
+  display: grid;
+  height: 2000px;
+  grid-template-columns: repeat(4, 1 fr);
+  grid-template-rows: repeat(4, 1 fr);
+  grid-template-areas:
+    "m m m m"
+    "m m m m"
+    "h h h h"
+    "h h h h"
+    "k d d j"
+    "k d d j"
+    "k d d j"
+    "f f f f"
+    "f f f f"
+    "r r r r"
+    "r r r r"
+    "t t t t"
+    "c c c c"
+    "c c c c"
+    "i i i i"
+    "i i i i"
+    "e e e e"
+    "e e e e";
+  grid-gap: 10px;
+  margin: 20px auto;
+  padding:0 10px;
+  
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.titles{
+  font-family: Candara;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.career {
+  grid-area: c;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./careerPhoto5.jpg);
+  background-size: cover;
+  border: yellow 4px;
+  
+
+
+}
+
+.dog{
+  grid-area: d;
+  background-image: url(./dogPhoto9.jpg);
+  border: yellow 4px;
+  object-fit: cover;
+}
+
+.interests{
+  grid-area: i;
+  background-image:  url(./interests2.jpg);
+  background-size: cover;
+}
+
+.box1{
+  background-color: Aquamarine;
+  grid-area: o;
+  display: none;
+}
+
+.box2{
+  background-color: Aqua;
+  grid-area: j;
+}
+
+.family{
+ grid-area: f;
+ background-image: url(./familyPhoto5.jpg);
+}
+
+.box3{
+  background-color: Turquoise;
+  grid-area: k;
+  
+}
+
+.box4{
+  background-color: lightskyblue;
+  grid-area: l;
+  display: none;
+}
+
+.myFace{
+  grid-area: m;
+  background-image: url(./me1.jpg);
+  background-size: fill;
+}
+
+.husband{
+  grid-area: h;
+  background-image: url(./husbandPhoto5.jpg);
+  background-size: cover;
+}
+
+.box5 {
+  background-color: Steelblue;
+  grid-area: n;
+  display: none;
+}
+
+.box6 {
+  background-color: dodgerblue ;
+  grid-area: x;
+  display: none;
+}
+
+.friends {
+  grid-area: r;
+ background-image: url(./friendsPhoto1.jpg);
+ background-size: cover;
+
+}
+
+
+.travel {
+  grid-area: t;
+  background-image: url(./travelPhoto9.jpg);
+  background-size: cover;
+
+}
+
+.box7 {
+  background-color: darkturquoise;
+  grid-area: g;
+  display: none;
+}
+
+.dreams {
+  grid-area: e;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./dreams1.jpg);
+  background-size: cover;
+}
+
+.sections{
+  text-align: center;
+  font-family: candara;
+  color: dimgrey;
+}
+
+.me{
+ border: grey dotted 3px;
+ height: 620px;
+ margin: 40px;
+ margin-bottom: 40px;
+ padding: 20px;
+}
+
+
+
+.me img{
+  height: 200px;
+  border-radius: 65%;
+  border: silver 3px solid;
+}
+
+.me p{
+  margin-bottom: 30px;
+}
+.sections h1{
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.sections p{
+  margin: 0 auto;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+}
+
+
+
+ 
+    
+    
+  
+
+
